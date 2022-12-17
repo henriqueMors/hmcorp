@@ -1,2 +1,2 @@
 # hmcorp
- site pessoal
+ hmcorp created for training in html, css and JS

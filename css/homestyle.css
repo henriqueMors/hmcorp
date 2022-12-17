@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rancho', cursive;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+a {
+    text-decoration: none;
+    color: #EDF2F4;
+    text-transform: uppercase;
+    padding: 10px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #8D99AE;
+    text-shadow: #2B2D42 1px 1px 2px;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background-color: #D90429;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #D90429;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
