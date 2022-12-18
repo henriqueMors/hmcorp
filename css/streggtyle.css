@@ -9,6 +9,7 @@ body {
     font-family: 'Rancho', cursive;
     background-color: #2B2D42;
     color: #EDF2F4;
+    overflow: hidden;
 }
 
 a {
@@ -35,6 +36,7 @@ nav {
     background: linear-gradient(0deg, rgba(43,45,66,0.35) 0%, rgba(239,35,60,1) 45%, rgba(43,45,66,0.35) 100%);
     border-radius: 5px;
     padding: 10px;
+    word-spacing: 30px;
 }
 
 ul li {
@@ -42,8 +44,31 @@ ul li {
     align-items: center;
 }
 
+#titulo {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
 section {
     color: #EF233C;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: 800px;
+    height: 740px;
 }
 
 footer {
